@@ -15,16 +15,16 @@ char get_value(deck_node_t *card);
  *         0 if s3 == s4
  *         Negative byte difference if s3 < s4
  */
-int _strcmp(const char *s3, const char *s4)
+int _strcmp(const char *s1, const char *s2)
 {
-	while (*s3 && *s4 && *s3 == *s4)
+	while (*s1 && *s2 && *s1 == *s2)
 	{
-		s3++;
-		s4++;
+		s1++;
+		s2++;
 	}
 
-	if (*s3 != *s4)
-		return (*s3 - *s4);
+	if (*s1 != *s2)
+		return (*s1 - *s2);
 	return (0);
 }
 
