@@ -8,7 +8,7 @@
  * @array: An array to convert to a doubly linked list
  * @size: The size of the array
  *
- * Return: A pointer to the first element of the created list. NULL on failure
+ * Return: The pointer to the first element of the created list. NULL on failure
  */
 listint_t *create_listint(const int *array, size_t size)
 {
@@ -34,7 +34,7 @@ listint_t *create_listint(const int *array, size_t size)
 }
 
 /**
- * main - The entry point
+ * main - THe entry point
  *
  * Return: Always 0
  */
