@@ -3,7 +3,7 @@
 #include "../sort.h"
 
 /**
- * main - The entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
@@ -14,7 +14,7 @@ int main(void)
 
 	print_array(array, n);
 	printf("\n");
-	bubble_sort(array, n);
+	quick_sort(array, n);
 	printf("\n");
 	print_array(array, n);
 	return (0);
